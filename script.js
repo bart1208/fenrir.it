@@ -1,37 +1,52 @@
-function getMoonPhase(year, month, day) {
-    let c = e = jd = b = 0;
-    if (month < 3) {
-        year--;
-        month += 12;
-    }
-    ++month;
-    c = 365.25 * year;
-    e = 30.6 * month;
-    jd = c + e + day - 694039.09; // jd is total days elapsed
-    jd /= 29.5305882; // divide by the moon cycle
-    b = parseInt(jd); // int(jd) -> b, any day of cycle
-    jd -= b; // subtract integer part to leave fractional part of cycle
-    b = Math.round(jd * 8); // scale fraction from 0-8 and round
+// Cursor Glow Follow
+const cursorGlow = document.querySelector('.cursor-glow');
+document.addEventListener('mousemove', (e) => {
+    cursorGlow.style.left = e.clientX + 'px';
+    cursorGlow.style.top = e.clientY + 'px';
+});
 
-    if (b >= 8) b = 0; // 0 and 8 are the same so turn 8 into 0
+// Scroll Reveal Animation
+const observerOptions = {
+    threshold: 0.1
+};
 
-    switch (b) {
-        case 0: return "New Moon";
-        case 1: return "Waxing Crescent";
-        case 2: return "First Quarter";
-        case 3: return "Waxing Gibbous";
-        case 4: return "Full Moon";
-        case 5: return "Waning Gibbous";
-        case 6: return "Third Quarter";
-        case 7: return "Waning Crescent";
-        default: return "Unknown";
-    }
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        }
+    });
+}, observerOptions);
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Glitch Hover Effect for Title
+const title = document.querySelector('.glitch-title');
+if (title) {
+    title.addEventListener('mouseover', () => {
+        title.style.animation = 'glitch-skew 0.3s infinite linear alternate-reverse';
+    });
+    title.addEventListener('mouseout', () => {
+        title.style.animation = 'none';
+    });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    const now = new Date();
-    const phase = getMoonPhase(now.getFullYear(), now.getMonth() + 1, now.getDate());
-    document.getElementById('moon-phase').innerText = phase;
+// Moon Phase Calculation (Simulated for Demo)
+function getMoonPhase() {
+    const phases = ["Luna Nuova", "Crescente", "Primo Quarto", "Gibbosa Crescente", "Luna Piena", "Gibbosa Calante", "Ultimo Quarto", "Calante"];
+    const d = new Date();
+    const phase = Math.floor((d.getDate() % 29.5) / 3.7);
+    return phases[phase] || phases[0];
+}
 
-    console.log("Fenrir is watching.");
+console.log("Fenrir System: Online. Moon Phase: " + getMoonPhase());
+
+// Smooth Scroll for Navigation
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
