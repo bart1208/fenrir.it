@@ -212,6 +212,16 @@ body {
     color: var(--accent);
 }
 
+.project-mini-list p {
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.project-mini-list strong {
+    color: var(--text-primary);
+}
+
 /* Projects */
 .project-grid {
     display: grid;
