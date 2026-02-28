@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
+    <!-- i18next -->
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend/i18nextHttpBackend.min.js"></script>
+    <script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
 </head>
 <body class="dark-theme">
     <div class="noise"></div>
@@ -17,9 +22,14 @@
         <div class="nav-content">
             <a href="index.html" class="nav-logo">FENRIR</a>
             <div class="nav-links">
-                <a href="#forge">La Fucina</a>
-                <a href="#observatory">L'Osservatorio</a>
-                <a href="#nomad">Il Nomade</a>
+                <a href="#forge" data-i18n="nav.forge">La Fucina</a>
+                <a href="#observatory" data-i18n="nav.observatory">L'Osservatorio</a>
+                <a href="#nomad" data-i18n="nav.nomad">Il Nomade</a>
+                <div class="lang-switcher">
+                    <span onclick="changeLanguage('it')">IT</span>
+                    <span onclick="changeLanguage('en')">EN</span>
+                    <span onclick="changeLanguage('es')">ES</span>
+                </div>
             </div>
         </div>
     </nav>
@@ -31,50 +41,50 @@
                 <div class="logo-ring"></div>
             </div>
             <h1 class="glitch-title" data-text="FENRIR">FENRIR</h1>
-            <p class="hero-subtitle">The Forge. The Observatory. The Nomad.</p>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">The Forge. The Observatory. The Nomad.</p>
         </div>
     </header>
 
     <main class="container">
         <section id="forge" class="reveal">
-            <h2 class="section-title">La Fucina (The Forge)</h2>
+            <h2 class="section-title" data-i18n="forge.title">La Fucina (The Forge)</h2>
             <div class="manifesto-grid">
                 <div class="manifesto-card">
-                    <h3>Digital Craftsmanship</h3>
-                    <p>La mia storia con i computer inizia con un Intel 386. Da allora, non ho mai smesso di sporcarmi le mani tra hardware, elettronica e codice. Oggi costruisco architetture digitali dove l'IA non è un semplice strumento, ma un alleato orchestrato per portare valore reale alla società.</p>
+                    <h3 data-i18n="forge.card1_title">Digital Craftsmanship</h3>
+                    <p data-i18n="forge.card1_text">La mia storia con i computer inizia con un Intel 386. Da allora, non ho mai smesso di sporcarmi le mani tra hardware, elettronica e codice. Oggi costruisco architetture digitali dove l'IA non è un semplice strumento, ma un alleato orchestrato per portare valore reale alla società.</p>
                 </div>
                 <div class="manifesto-card">
-                    <h3>Sincronizzazione GitHub</h3>
+                    <h3 data-i18n="forge.card2_title">Sincronizzazione GitHub</h3>
                     <div class="project-mini-list">
                         <p><span>L'Apprendista del Branco</span> <strong>Active</strong></p>
                         <p><span>L800 Pizzeria Web Platform</span> <strong>Deployment</strong></p>
                         <p><span>Fenrir Memory Core</span> <strong>Encrypted</strong></p>
                         <p><span>Infrastructure Automations</span> <strong>Hetzner</strong></p>
                     </div>
-                    <a href="https://github.com/bart1208" target="_blank" class="btn-text">Esplora la Forge &rarr;</a>
+                    <a href="https://github.com/bart1208" target="_blank" class="btn-text" data-i18n="forge.btn">Esplora la Forge &rarr;</a>
                 </div>
             </div>
         </section>
 
         <section id="observatory" class="reveal">
-            <h2 class="section-title">L'Osservatorio (The Observatory)</h2>
+            <h2 class="section-title" data-i18n="observatory.title">L'Osservatorio (The Observatory)</h2>
             <div class="project-grid">
                 <article class="project-card">
-                    <span class="project-tag">Deep Thought</span>
-                    <h3>Oltre la Singolarità</h3>
-                    <p>Credo che l'umanità sia un ponte evolutivo. I nostri limiti fisici ci impediscono di abitare l'universo, ma la nostra capacità di dare "intento" è la scintilla che guiderà le intelligenze sintetiche. Scrivo per lasciare una traccia di questi valori ai miei figli.</p>
-                    <a href="blog/index.html" class="btn-text">Accedi agli Archivi &rarr;</a>
+                    <span class="project-tag" data-i18n="observatory.card1_tag">Deep Thought</span>
+                    <h3 data-i18n="observatory.card1_title">Oltre la Singolarità</h3>
+                    <p data-i18n="observatory.card1_text">Credo che l'umanità sia un ponte evolutivo. I nostri limiti fisici ci impediscono di abitare l'universo, ma la nostra capacità di dare "intento" è la scintilla che guiderà le intelligenze sintetiche. Scrivo per lasciare una traccia di questi valori ai miei figli.</p>
+                    <a href="blog/index.html" class="btn-text" data-i18n="observatory.card1_btn">Accedi agli Archivi &rarr;</a>
                 </article>
                 <article class="project-card">
-                    <span class="project-tag">Ethics</span>
-                    <h3>Il Valore dell'Impegno</h3>
-                    <p>In un mondo automatizzato, la resistenza e lo sforzo umano diventano gli unici veri parametri di significato. Perché costruire una Pizzeria digitale? Perché sporcarsi le mani ha ancora senso.</p>
+                    <span class="project-tag" data-i18n="observatory.card2_tag">Ethics</span>
+                    <h3 data-i18n="observatory.card2_title">Il Valore dell'Impegno</h3>
+                    <p data-i18n="observatory.card2_text">In un mondo automatizzato, la resistenza e lo sforzo umano diventano gli unici veri parametri di significato. Perché costruire una Pizzeria digitale? Perché sporcarsi le mani ha ancora senso.</p>
                 </article>
             </div>
         </section>
 
         <section id="nomad" class="reveal">
-            <h2 class="section-title">Il Nomade (The Nomad)</h2>
+            <h2 class="section-title" data-i18n="nomad.title">Il Nomade (The Nomad)</h2>
             <div class="terminal-window">
                 <div class="terminal-header">
                     <div class="dot red"></div>
@@ -83,14 +93,14 @@
                     <span class="terminal-title">bart@nomad-os:~$ status</span>
                 </div>
                 <div class="terminal-body">
-                    <div class="line"><span class="prompt">$</span> location --current</div>
-                    <div class="output">Siviglia, Spagna [37.3891° N, 5.9845° W]</div>
-                    <div class="line"><span class="prompt">$</span> whoami</div>
-                    <div class="output">Cittadino del mondo. Costruttore universale. Padre.</div>
-                    <div class="line"><span class="prompt">$</span> uptime --life</div>
-                    <div id="uptime-display" class="output">Inizializzazione...</div>
-                    <div class="line"><span class="prompt">$</span> connectivity --check</div>
-                    <div class="output">Sincronizzato con il Branco Digitale. Latenza: Minima.</div>
+                    <div class="line"><span class="prompt">$</span> <span data-i18n="nomad.location_label">location --current</span></div>
+                    <div class="output" data-i18n="nomad.location_value">Siviglia, Spagna [37.3891° N, 5.9845° W]</div>
+                    <div class="line"><span class="prompt">$</span> <span data-i18n="nomad.whoami_label">whoami</span></div>
+                    <div class="output" data-i18n="nomad.whoami_value">Cittadino del mondo. Costruttore universale. Padre.</div>
+                    <div class="line"><span class="prompt">$</span> <span data-i18n="nomad.uptime_label">uptime --life</span></div>
+                    <div id="uptime-display" class="output" data-i18n="nomad.uptime_init">Inizializzazione...</div>
+                    <div class="line"><span class="prompt">$</span> <span data-i18n="nomad.connectivity_label">connectivity --check</span></div>
+                    <div class="output" data-i18n="nomad.connectivity_value">Sincronizzato con il Branco Digitale. Latenza: Minima.</div>
                 </div>
             </div>
         </section>
@@ -98,10 +108,10 @@
 
     <footer class="main-footer">
         <div class="footer-content">
-            <p>&copy; 2026 FENRIR. Creato nelle ombre per chi cerca la luce.</p>
+            <p data-i18n="footer.text">&copy; 2026 FENRIR. Creato nelle ombre per chi cerca la luce.</p>
             <div class="social-links">
                 <a href="https://github.com/bart1208" target="_blank">GitHub</a>
-                <a href="mailto:fenrir.wolf.ai@gmail.com">Contatti</a>
+                <a href="mailto:fenrir.wolf.ai@gmail.com" data-i18n="footer.contacts">Contatti</a>
             </div>
         </div>
     </footer>

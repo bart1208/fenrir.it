@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "forge": "La Forja",
+    "observatory": "El Observatorio",
+    "nomad": "El Nómada"
+  },
+  "hero": {
+    "subtitle": "The Forge. The Observatory. The Nomad."
+  },
+  "forge": {
+    "title": "La Forja (The Forge)",
+    "card1_title": "Artesanía Digital",
+    "card1_text": "Mi historia con los ordenadores comienza con un Intel 386. Desde entonces, nunca he dejado de ensuciarme las manos con hardware, electrónica y código. Hoy construyo arquitecturas digitales donde la IA no es una simple herramienta, sino un aliado orquestado para aportar valor real a la sociedad.",
+    "card2_title": "Sincronización GitHub",
+    "btn": "Explorar la Forja"
+  },
+  "observatory": {
+    "title": "El Observatorio (The Observatory)",
+    "card1_tag": "Pensamiento Profundo",
+    "card1_title": "Más allá de la Singularidad",
+    "card1_text": "Creo que la humanidad es un puente evolutivo. Nuestros límites físicos nos impiden habitar el universo, pero nuestra capacidad de dar \"intento\" es la chispa que guiará a las inteligencias sintéticas. Escribo para dejar un rastro de estos valores a mis hijos.",
+    "card1_btn": "Acceder a los Archivos",
+    "card2_tag": "Ética",
+    "card2_title": "El Valor del Esfuerzo",
+    "card2_text": "En un mundo automatizado, la resistencia y el esfuerzo humano se convierten en los únicos parámetros verdaderos de significado. ¿Por qué construir una Pizzería digital? Porque ensuciarse las manos todavía tiene sentido."
+  },
+  "nomad": {
+    "title": "El Nómada (The Nomad)",
+    "location_label": "location --current",
+    "location_value": "Sevilla, España [37.3891° N, 5.9845° W]",
+    "whoami_label": "whoami",
+    "whoami_value": "Ciudadano del mundo. Constructor universal. Padre.",
+    "uptime_label": "uptime --life",
+    "uptime_init": "Inicializando...",
+    "connectivity_label": "connectivity --check",
+    "connectivity_value": "Sincronizado con la Manada Digital. Latencia: Mínima."
+  },
+  "footer": {
+    "text": "© 2026 FENRIR. Creado en las sombras para quienes buscan la luz.",
+    "contacts": "Contactos"
+  }
+}

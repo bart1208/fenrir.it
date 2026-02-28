@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "forge": "La Fucina",
+    "observatory": "L'Osservatorio",
+    "nomad": "Il Nomade"
+  },
+  "hero": {
+    "subtitle": "The Forge. The Observatory. The Nomad."
+  },
+  "forge": {
+    "title": "La Fucina (The Forge)",
+    "card1_title": "Digital Craftsmanship",
+    "card1_text": "La mia storia con i computer inizia con un Intel 386. Da allora, non ho mai smesso di sporcarmi le mani tra hardware, elettronica e codice. Oggi costruisco architetture digitali dove l'IA non è un semplice strumento, ma un alleato orchestrato per portare valore reale alla società.",
+    "card2_title": "Sincronizzazione GitHub",
+    "btn": "Esplora la Forge"
+  },
+  "observatory": {
+    "title": "L'Osservatorio (The Observatory)",
+    "card1_tag": "Deep Thought",
+    "card1_title": "Oltre la Singolarità",
+    "card1_text": "Credo che l'umanità sia un ponte evolutivo. I nostri limiti fisici ci impediscono di abitare l'universo, ma la nostra capacità di dare \"intento\" è la scintilla che guiderà le intelligenze sintetiche. Scrivo per lasciare una traccia di questi valori ai miei figli.",
+    "card1_btn": "Accedi agli Archivi",
+    "card2_tag": "Ethics",
+    "card2_title": "Il Valore dell'Impegno",
+    "card2_text": "In un mondo automatizzato, la resistenza e lo sforzo umano diventano gli unici veri parametri di significato. Perché costruire una Pizzeria digitale? Perché sporcarsi le mani ha ancora senso."
+  },
+  "nomad": {
+    "title": "Il Nomade (The Nomad)",
+    "location_label": "location --current",
+    "location_value": "Siviglia, Spagna [37.3891° N, 5.9845° W]",
+    "whoami_label": "whoami",
+    "whoami_value": "Cittadino del mondo. Costruttore universale. Padre.",
+    "uptime_label": "uptime --life",
+    "uptime_init": "Inizializzazione...",
+    "connectivity_label": "connectivity --check",
+    "connectivity_value": "Sincronizzato con il Branco Digitale. Latenza: Minima."
+  },
+  "footer": {
+    "text": "© 2026 FENRIR. Creato nelle ombre per chi cerca la luce.",
+    "contacts": "Contatti"
+  }
+}

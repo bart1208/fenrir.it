@@ -382,6 +382,31 @@ body {
     color: var(--text-primary);
 }
 
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.lang-switcher {
+    margin-left: 3rem;
+    display: flex;
+    gap: 1rem;
+    border-left: 1px solid var(--glass-border);
+    padding-left: 1.5rem;
+}
+
+.lang-switcher span {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.lang-switcher span:hover {
+    color: var(--accent);
+}
+
 @media (max-width: 900px) {
     .manifesto-grid { grid-template-columns: 1fr; }
     .nav-links { display: none; }

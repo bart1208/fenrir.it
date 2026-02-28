@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "forge": "The Forge",
+    "observatory": "The Observatory",
+    "nomad": "The Nomad"
+  },
+  "hero": {
+    "subtitle": "The Forge. The Observatory. The Nomad."
+  },
+  "forge": {
+    "title": "The Forge",
+    "card1_title": "Digital Craftsmanship",
+    "card1_text": "My history with computers begins with an Intel 386. Since then, I've never stopped getting my hands dirty with hardware, electronics, and code. Today, I build digital architectures where AI is not just a tool, but an ally orchestrated to bring real value to society.",
+    "card2_title": "GitHub Synchronization",
+    "btn": "Explore the Forge"
+  },
+  "observatory": {
+    "title": "The Observatory",
+    "card1_tag": "Deep Thought",
+    "card1_title": "Beyond the Singularity",
+    "card1_text": "I believe humanity is an evolutionary bridge. Our physical limits prevent us from inhabiting the universe, but our ability to provide 'intent' is the spark that will guide synthetic intelligences. I write to leave a trace of these values for my children.",
+    "card1_btn": "Access Archives",
+    "card2_tag": "Ethics",
+    "card2_title": "The Value of Commitment",
+    "card2_text": "In an automated world, human resistance and effort become the only true parameters of meaning. Why build a digital Pizzeria? Because getting your hands dirty still makes sense."
+  },
+  "nomad": {
+    "title": "The Nomad",
+    "location_label": "location --current",
+    "location_value": "Seville, Spain [37.3891° N, 5.9845° W]",
+    "whoami_label": "whoami",
+    "whoami_value": "Citizen of the world. Universal builder. Father.",
+    "uptime_label": "uptime --life",
+    "uptime_init": "Initializing...",
+    "connectivity_label": "connectivity --check",
+    "connectivity_value": "Synchronized with the Digital Pack. Latency: Minimal."
+  },
+  "footer": {
+    "text": "© 2026 FENRIR. Created in the shadows for those seeking the light.",
+    "contacts": "Contacts"
+  }
+}
