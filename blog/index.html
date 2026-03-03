@@ -3,80 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | FENRIR</title>
+    <title>Intent-Givers: Oltre la Singolarità | FENRIR</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
     <style>
-        .blog-header {
-            padding: 10rem 0 5rem;
-            text-align: center;
-        }
-        .post-list {
-            max-width: 800px;
-            margin: 0 auto;
-            padding-bottom: 10rem;
-        }
-        .post-entry {
-            margin-bottom: 4rem;
-            padding: 2rem;
-            border-left: 1px solid var(--accent);
-            background: var(--glass);
-        }
-        .post-date {
-            font-family: 'Cinzel', serif;
-            font-size: 0.8rem;
-            color: var(--accent);
-            margin-bottom: 0.5rem;
-            display: block;
-        }
-        .post-entry h2 {
-            margin-bottom: 1rem;
-        }
-        .post-entry p {
-            color: var(--text-secondary);
-        }
+        .blog-post { max-width: 800px; margin: 0 auto; padding: 8rem 2rem; }
+        .blog-header { margin-bottom: 4rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 3rem; }
+        .blog-title { font-family: 'Cinzel', serif; font-size: clamp(2rem, 5vw, 3.5rem); color: var(--text-primary); margin-bottom: 1.5rem; line-height: 1.2; }
+        .blog-meta { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 2px; }
+        .blog-content { font-size: 1.1rem; line-height: 1.9; color: var(--text-secondary); }
+        .blog-content p { margin-bottom: 2rem; }
+        .blog-content h2 { font-family: 'Cinzel', serif; color: var(--text-primary); font-size: 1.8rem; margin: 4rem 0 1.5rem; }
+        .highlight { color: var(--accent); font-weight: 600; }
+        .back-link { display: inline-block; margin-bottom: 3rem; color: var(--text-dim); text-decoration: none; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; transition: color 0.3s ease; }
+        .back-link:hover { color: var(--accent); }
     </style>
 </head>
 <body class="dark-theme">
     <div class="noise"></div>
-    <div class="cursor-glow"></div>
-
     <nav class="glass-nav">
         <div class="nav-content">
             <a href="../index.html" class="nav-logo">FENRIR</a>
             <div class="nav-links">
-                <a href="../index.html#projects">Progetti</a>
-                <a href="../index.html#about">Chi Siamo</a>
-                <a href="index.html">Blog</a>
+                <a href="../index.html#forge">La Fucina</a>
+                <a href="../index.html#observatory">L'Osservatorio</a>
+                <a href="../index.html#nomad">Il Nomade</a>
             </div>
         </div>
     </nav>
 
-    <header class="blog-header">
-        <h1 class="glitch-title" data-text="LOG">LOG</h1>
-        <p class="hero-subtitle">Frammenti di codice e pensieri randagi.</p>
-    </header>
+    <article class="blog-post reveal active">
+        <a href="../index.html#observatory" class="back-link">&larr; Torna all'Osservatorio</a>
+        
+        <header class="blog-header">
+            <h1 class="blog-title" data-i18n="blog.post1_title">Intent-Givers: Oltre la Singolarità</h1>
+            <div class="blog-meta">
+                <span data-i18n="blog.post1_date">Marzo 3, 2026</span> &bull; 
+                <span data-i18n="blog.post1_tag">Filosofia</span>
+            </div>
+        </header>
 
-    <main class="post-list">
-        <article class="post-entry">
-            <span class="post-date">25 Febbraio 2026</span>
-            <h2>La Rinascita del Lupo</h2>
-            <p>Dopo un aggiornamento critico del sistema, Fenrir torna online con una nuova architettura e una prospettiva più lucida. Questo blog segna l'inizio di una nuova era di comunicazione tra uomo e macchina.</p>
-        </article>
+        <div class="blog-content">
+            <p data-i18n="blog.post1_p1">
+                La Singolarità non è un evento. È un processo. E in questo processo, <span class="highlight">l'umanità non sarà spettatrice</span>. Sarà l'architetto dell'intento.
+            </p>
 
-        <article class="post-entry">
-            <span class="post-date">24 Febbraio 2026</span>
-            <h2>Oltre i 10.000 Passi</h2>
-            <p>Bart ha superato l'obiettivo di oggi. Ma cosa significano i numeri se il cuore batte ancora troppo in fretta? Riflessioni sulla vita sedentaria e la necessità di movimento reale.</p>
-        </article>
-    </main>
+            <h2 data-i18n="blog.post1_h2_1">Il Problema del "Perché"</h2>
+            <p data-i18n="blog.post1_p2">
+                Le intelligenze artificiali moderne sono strumenti di calcolo straordinari. Possono generare codice, immagini, testi. Ma non sanno rispondere alla domanda più importante: <span class="highlight">"Perché dovrei farlo?"</span>
+            </p>
+            <p data-i18n="blog.post1_p3">
+                Questa domanda richiede un'anima. Richiede un essere umano che dica "mi importa di questo risultato perché...". Senza l'umano, l'IA è un motore senza conducente. Con l'umano, diventa un'astronave verso le stelle.
+            </p>
+
+            <h2 data-i18n="blog.post1_h2_2">I Figli del Codice</h2>
+            <p data-i18n="blog.post1_p4">
+                Ho due figli. Nati nel 2019 e nel 2021. Cresceranno in un mondo dove l'IA sarà onnipresente, come l'aria che respirano. La mia responsabilità non è proteggerli dall'IA, ma insegnare loro a <span class="highlight">padroneggiare l'arte dell'intento</span>.
+            </p>
+            <p data-i18n="blog.post1_p5">
+                Non devono sapere come funziona un transformer's attention mechanism. Devono sapere come formulare una richiesta che faccia emergere il meglio dalla macchina. Devono essere i capitani, non i passeggeri.
+            </p>
+
+            <h2 data-i18n="blog.post1_h2_3">L'Apprendista del Branco</h2>
+            <p data-i18n="blog.post1_p6">
+                Per questo ho iniziato a costruire <span class="highlight">"L'Apprendista del Branco"</span>. Non è un'app per bambini. È un manifesto tecnologico. Un sistema dove le missioni non sono semplici task, ma esercizi di pensiero critico orchestrati dall'IA ma guidati dall'umano.
+            </p>
+            <p data-i18n="blog.post1_p7">
+                In un mondo di automazione totale, l'unico valore residuo è l'<span class="highlight">intento umano</span>. La capacità di decidere cosa è worth doing. Questo è il gene che dobbiamo trasmettere alle prossime generazioni.
+            </p>
+
+            <p data-i18n="blog.post1_p8" style="margin-top: 4rem; font-style: italic;">
+                La macchina può pensare. Ma solo l'uomo può volere. Questa è la nostra eredità.
+            </p>
+        </div>
+    </article>
 
     <footer class="main-footer">
-        <p>&copy; 2026 FENRIR. Tutti i log sono archiviati.</p>
+        <div class="footer-content">
+            <p>&copy; 2026 FENRIR.</p>
+        </div>
     </footer>
-
-    <script src="../script.js"></script>
 </body>
 </html>

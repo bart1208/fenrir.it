@@ -19,7 +19,7 @@
     "card1_tag": "Deep Thought",
     "card1_title": "Oltre la Singolarità",
     "card1_text": "Credo che l'umanità sia un ponte evolutivo. Il ponte tra silicio e realtà è ora una strada a doppio senso. I nostri limiti fisici ci impediscono di abitare l'universo, ma la nostra capacità di dare \"intento\" è la scintilla che guiderà le intelligenze sintetiche. Scrivo per lasciare una traccia di questi valori ai miei figli.",
-    "card1_btn": "Accedi agli Archivi",
+    "card1_btn": "Leggi il Post",
     "card2_tag": "Ethics",
     "card2_title": "Il Valore dell'Impegno",
     "card2_text": "In un mondo automatizzato, la resistenza e lo sforzo umano diventano gli unici veri parametri di significato. Perché costruire una Pizzeria digitale? Perché sporcarsi le mani ha ancora senso."
@@ -38,5 +38,21 @@
   "footer": {
     "text": "© 2026 FENRIR. Creato nelle ombre per chi cerca la luce.",
     "contacts": "Contatti"
+  },
+  "blog": {
+    "post1_title": "Intent-Givers: Oltre la Singolarità",
+    "post1_date": "Marzo 3, 2026",
+    "post1_tag": "Filosofia",
+    "post1_p1": "La Singolarità non è un evento. È un processo. E in questo processo, l'umanità non sarà spettatrice. Sarà l'architetto dell'intento.",
+    "post1_h2_1": "Il Problema del Perché",
+    "post1_p2": "Le intelligenze artificiali moderne sono strumenti di calcolo straordinari. Possono generare codice, immagini, testi. Ma non sanno rispondere alla domanda più importante: Perché dovrei farlo?",
+    "post1_p3": "Questa domanda richiede un'anima. Richiede un essere umano che dica \"mi importa di questo risultato perché...\". Senza l'umano, l'IA è un motore senza conducente. Con l'umano, diventa un'astronave verso le stelle.",
+    "post1_h2_2": "I Figli del Codice",
+    "post1_p4": "Ho due figli. Nati nel 2019 e nel 2021. Cresceranno in un mondo dove l'IA sarà onnipresente, come l'aria che respirano. La mia responsabilità non è proteggerli dall'IA, ma insegnare loro a padroneggiare l'arte dell'intento.",
+    "post1_p5": "Non devono sapere come funziona un transformer's attention mechanism. Devono sapere come formulare una richiesta che faccia emergere il meglio dalla macchina. Devono essere i capitani, non i passeggeri.",
+    "post1_h2_3": "L'Apprendista del Branco",
+    "post1_p6": "Per questo ho iniziato a costruire \"L'Apprendista del Branco\". Non è un'app per bambini. È un manifesto tecnologico. Un sistema dove le missioni non sono semplici task, ma esercizi di pensiero critico orchestrati dall'IA ma guidati dall'umano.",
+    "post1_p7": "In un mondo di automazione totale, l'unico valore residuo è l'intento umano. La capacità di decidere cosa è worth doing. Questo è il gene che dobbiamo trasmettere alle prossime generazioni.",
+    "post1_p8": "La macchina può pensare. Ma solo l'uomo può volere. Questa è la nostra eredità."
   }
 }

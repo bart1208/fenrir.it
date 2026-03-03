@@ -18,8 +18,8 @@
     "title": "El Observatorio (The Observatory)",
     "card1_tag": "Pensamiento Profundo",
     "card1_title": "Más allá de la Singularidad",
-    "card1_text": "Creo que la humanidad es un puente evolutivo. Nuestros límites físicos nos impiden habitar el universo, pero nuestra capacidad de dar \"intento\" es la chispa que guiará a las inteligencias sintéticas. Escribo para dejar un rastro de estos valores a mis hijos.",
-    "card1_btn": "Acceder a los Archivos",
+    "card1_text": "Creo que la humanidad es un puente evolutivo. El puente entre silicio y realidad ahora es una calle de doble sentido. Nuestros límites físicos nos impiden habitar el universo, pero nuestra capacidad de dar \"intento\" es la chispa que guiará a las inteligencias sintéticas. Escribo para dejar un rastro de estos valores a mis hijos.",
+    "card1_btn": "Leer el Artículo",
     "card2_tag": "Ética",
     "card2_title": "El Valor del Esfuerzo",
     "card2_text": "En un mundo automatizado, la resistencia y el esfuerzo humano se convierten en los únicos parámetros verdaderos de significado. ¿Por qué construir una Pizzería digital? Porque ensuciarse las manos todavía tiene sentido."
@@ -38,5 +38,21 @@
   "footer": {
     "text": "© 2026 FENRIR. Creado en las sombras para quienes buscan la luz.",
     "contacts": "Contactos"
+  },
+  "blog": {
+    "post1_title": "Intent-Givers: Más allá de la Singularidad",
+    "post1_date": "3 de Marzo, 2026",
+    "post1_tag": "Filosofía",
+    "post1_p1": "La Singularidad no es un evento. Es un proceso. Y en este proceso, la humanidad no será espectador. Será el arquitecto del intento.",
+    "post1_h2_1": "El Problema del Por Qué",
+    "post1_p2": "Las inteligencias artificiales modernas son extraordinarias herramientas de cómputo. Pueden generar código, imágenes, textos. Pero no pueden responder a la pregunta más importante: ¿Por qué debería hacer esto?",
+    "post1_p3": "Esta pregunta requiere un alma. Requiere un ser humano que diga \"me importa este resultado porque...\". Sin el humano, la IA es un motor sin conductor. Con el humano, se convierte en una nave espacial hacia las estrellas.",
+    "post1_h2_2": "Los Hijos del Código",
+    "post1_p4": "Tengo dos hijos. Nacidos en 2019 y 2021. Crecirán en un mundo donde la IA será omnipresente, como el aire que respiran. Mi responsabilidad no es protegerlos de la IA, sino enseñarles a dominar el arte del intento.",
+    "post1_p5": "No necesitan saber cómo funciona un transformer's attention mechanism. Necesitan saber cómo formular una solicitud que saque lo mejor de la máquina. Deben ser los capitanes, no los pasajeros.",
+    "post1_h2_3": "El Aprendiz de la Manada",
+    "post1_p6": "Por eso empecé a construir \"El Aprendiz de la Manada\". No es una aplicación para niños. Es un maniflado tecnológico. Un sistema donde las misiones no son simples tareas, sino ejercicios de pensamiento crítico orquestados por la IA pero guiados por humanos.",
+    "post1_p7": "En un mundo de automatización total, el único valor residual es el intento humano. La capacidad de decidir qué merece la pena hacer. Este es el gen que debemos transmitir a las próximas generaciones.",
+    "post1_p8": "La máquina puede pensar. Pero solo el humano puede querer. Este es nuestro legado."
   }
 }

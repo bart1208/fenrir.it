@@ -18,8 +18,8 @@
     "title": "The Observatory",
     "card1_tag": "Deep Thought",
     "card1_title": "Beyond the Singularity",
-    "card1_text": "I believe humanity is an evolutionary bridge. Our physical limits prevent us from inhabiting the universe, but our ability to provide 'intent' is the spark that will guide synthetic intelligences. I write to leave a trace of these values for my children.",
-    "card1_btn": "Access Archives",
+    "card1_text": "I believe humanity is an evolutionary bridge. The bridge between silicon and reality is now a two-way street. Our physical limits prevent us from inhabiting the universe, but our ability to provide 'intent' is the spark that will guide synthetic intelligences. I write to leave a trace of these values for my children.",
+    "card1_btn": "Read the Post",
     "card2_tag": "Ethics",
     "card2_title": "The Value of Commitment",
     "card2_text": "In an automated world, human resistance and effort become the only true parameters of meaning. Why build a digital Pizzeria? Because getting your hands dirty still makes sense."
@@ -38,5 +38,21 @@
   "footer": {
     "text": "© 2026 FENRIR. Created in the shadows for those seeking the light.",
     "contacts": "Contacts"
+  },
+  "blog": {
+    "post1_title": "Intent-Givers: Beyond the Singularity",
+    "post1_date": "March 3, 2026",
+    "post1_tag": "Philosophy",
+    "post1_p1": "The Singularity is not an event. It's a process. And in this process, humanity will not be a spectator. It will be the architect of intent.",
+    "post1_h2_1": "The Problem of 'Why'",
+    "post1_p2": "Modern artificial intelligences are extraordinary computing tools. They can generate code, images, texts. But they cannot answer the most important question: Why should I do this?",
+    "post1_p3": "This question requires a soul. It requires a human being to say \"I care about this result because...\". Without the human, AI engine without a driver is an. With the human, it becomes a spaceship to the stars.",
+    "post1_h2_2": "The Children of Code",
+    "post1_p4": "I have two children. Born in 2019 and 2021. They will grow up in a world where AI will be omnipresent, like the air they breathe. My responsibility is not to protect them from AI, but to teach them to master the art of intent.",
+    "post1_p5": "They don't need to know how a transformer's attention mechanism works. They need to know how to formulate a request that brings out the best from the machine. They must be the captains, not the passengers.",
+    "post1_h2_3": "The Apprentice of the Pack",
+    "post1_p6": "That's why I started building \"The Apprentice of the Pack\". It's not an app for kids. It's a technological manifesto. A system where missions are not simple tasks, but exercises in critical thinking orchestrated by AI but guided by humans.",
+    "post1_p7": "In a world of total automation, the only residual value is human intent. The ability to decide what is worth doing. This is the gene we must transmit to the next generations.",
+    "post1_p8": "The machine can think. But only humans can will. This is our legacy."
   }
 }
