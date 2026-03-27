@@ -33,7 +33,11 @@
     "uptime_label": "uptime --life",
     "uptime_init": "Initializing...",
     "connectivity_label": "connectivity --check",
-    "connectivity_value": "The bridge between silicon and reality is now a two-way street. The Apprentice evolves: missions now forge the soul through the Cryptographic Rewards system."
+    "connectivity_value": "The bridge between silicon and reality is now a two-way street. The Apprentice evolves: missions now forge the soul through the Cryptographic Rewards system.",
+    "evolution_label": "evolution --stage",
+    "evolution_value": "L'Apprendista del Branco — Alpha 1.1 🌙",
+    "network_label": "network --alpha-nodes",
+    "network_value": "PocketBase ◎ Vercel ◎ Claude Code ◎ Fenrir Core"
   },
   "footer": {
     "text": "© 2026 FENRIR. Created in the shadows for those seeking the light.",
