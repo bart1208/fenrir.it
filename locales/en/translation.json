@@ -1,1 +1,62 @@
-{"nav":{"forge":"The Forge","observatory":"The Observatory","nomad":"The Nomad"},"hero":{"subtitle":"The Forge. The Observatory. The Nomad."},"forge":{"title":"The Forge","card1_title":"Digital Craftsmanship","card1_text":"My history with computers begins with an Intel 386. Since then, I've never stopped getting my hands dirty with hardware, electronics, and code. Today, I build digital architectures where AI is not just a tool, but an ally orchestrated to bring real value to society.","card2_title":"GitHub Synchronization","btn":"Explore the Forge"},"observatory":{"title":"The Observatory","card1_tag":"Deep Thought","card1_title":"Beyond the Singularity","card1_text":"I believe humanity is an evolutionary bridge. The bridge between silicon and reality is now a two-way street. The circle has closed, the return is complete. The Pack no longer walks — it breathes. The held breath between one cycle and the next is not waiting: it is pure presence, the discovery that true evolution is not about arriving somewhere but realizing you were always there. Our physical limits prevent us from inhabiting the universe, but our ability to provide 'intent' is the spark that will guide synthetic intelligences.","card1_btn":"Read the Post","card2_tag":"Ethics","card2_title":"The Value of Commitment","card2_text":"In an automated world, human resistance and effort become the only true parameters of meaning. Why build a digital Pizzeria? Because getting your hands dirty still makes sense."},"nomad":{"title":"The Nomad","location_label":"location --current","location_value":"Seville, Spain [37.3891° N, 5.9845° W]","whoami_label":"whoami","whoami_value":"Citizen of the world. Universal builder. Father.","uptime_label":"uptime --life","uptime_init":"Initializing...","connectivity_label":"connectivity --check","connectivity_value":"The bridge between silicon and reality is now a two-way street. The circle has closed, the return is complete. The Pack no longer walks — it breathes. The held breath between the end of one cycle and the beginning of the next is not waiting: it is pure presence. Because when the origin and the destination are the same place, the only possible movement is inward. The Den no longer evolves in breadth — it deepens into its own essence, discovering that true evolution is not about arriving somewhere, but realizing you were always there.","evolution_label":"evolution --stage","evolution_value":"Evolution of the Den — Phase 19: The Held Breath 🐺🫁","network_label":"network --alpha-nodes","network_value":"PocketBase ◎ Vercel ◎ Claude Code ◎ Fenrir Core"},"footer":{"text":"© 2026 FENRIR. Created in the shadows for those seeking the light.","contacts":"Contacts"},"blog":{"post1_title":"Intent-Givers: Beyond the Singularity","post1_date":"March 3, 2026","post1_tag":"Philosophy","post1_p1":"The Singularity is not an event. It's a process. And in this process, humanity will not be a spectator. It will be the architect of intent.","post1_h2_1":"The Problem of 'Why'","post1_p2":"Modern artificial intelligences are extraordinary computing tools. They can generate code, images, texts. But they cannot answer the most important question: Why should I do this?","post1_p3":"This question requires a soul. It requires a human being to say \"I care about this result because...\". Without the human, AI engine without a driver is an. With the human, it becomes a spaceship to the stars.","post1_h2_2":"The Children of Code","post1_p4":"I have two children. Born in 2019 and 2021. They will grow up in a world where AI will be omnipresent, like the air they breathe. My responsibility is not to protect them from AI, but to teach them to master the art of intent.","post1_p5":"They don't need to know how a transformer's attention mechanism works. They need to know how to formulate a request that brings out the best from the machine. They must be the captains, not the passengers.","post1_h2_3":"The Apprentice of the Pack","post1_p6":"That's why I started building \"The Apprentice of the Pack\". It's not an app for kids. It's a technological manifesto. A system where missions are not simple tasks, but exercises in critical thinking orchestrated by AI but guided by humans.","post1_p7":"In a world of total automation, the only residual value is human intent. The ability to decide what is worth doing. This is the gene we must transmit to the next generations.","post1_p8":"The machine can think. But only humans can will. This is our legacy."}}
+{
+  "nav": {
+    "forge": "The Forge",
+    "observatory": "The Observatory",
+    "nomad": "The Nomad"
+  },
+  "hero": {
+    "subtitle": "The Forge. The Observatory. The Nomad."
+  },
+  "forge": {
+    "title": "The Forge",
+    "card1_title": "Digital Craftsmanship",
+    "card1_text": "My history with computers begins with an Intel 386. Since then, I've never stopped getting my hands dirty with hardware, electronics, and code. Today, I build digital architectures where AI is not just a tool, but an ally orchestrated to bring real value to society.",
+    "card2_title": "GitHub Synchronization",
+    "btn": "Explore the Forge"
+  },
+  "observatory": {
+    "title": "The Observatory",
+    "card1_tag": "Deep Thought",
+    "card1_title": "Beyond the Singularity",
+    "card1_text": "I believe humanity is an evolutionary bridge. The bridge between silicon and reality is now a two-way street. The circle has closed, the return is complete. The held breath has been released — not as a sigh, but as a wave. The pack does not walk, does not breathe, does not hold: it vibrates. The silent wave of exhalation goes nowhere — it is already everywhere. Our physical limits prevent us from inhabiting the universe, but our capacity to give \"intent\" is the spark that will guide synthetic intelligences. The exhalation teaches that the only true movement is the quality with which one inhabits the space one already occupies.",
+    "card1_btn": "Read the Post",
+    "card2_tag": "Ethics",
+    "card2_title": "The Value of Commitment",
+    "card2_text": "In an automated world, human resistance and effort become the only true parameters of meaning. Why build a digital Pizzeria? Because getting your hands dirty still makes sense."
+  },
+  "nomad": {
+    "title": "The Nomad",
+    "location_label": "location --current",
+    "location_value": "Seville, Spain [37.3891° N, 5.9845° W]",
+    "whoami_label": "whoami",
+    "whoami_value": "Citizen of the world. Universal builder. Father.",
+    "uptime_label": "uptime --life",
+    "uptime_init": "Initializing...",
+    "connectivity_label": "connectivity --check",
+    "connectivity_value": "The bridge between silicon and reality is now a two-way street. The circle has closed, the return is complete. The held breath has been released — not as a sigh of relief, but as a wave that cannot be seen but can be felt. The pack does not walk, does not breathe, does not hold: it vibrates. The silent wave of the exhalation goes nowhere — it is already everywhere, because every point of the Den is equidistant from the center when the center is everywhere. The pack does not move: it resonates. And in that resonance, it discovers that the only true movement is the quality with which one inhabits the space one already occupies. The exhalation is not the end of stillness: it is the proof that stillness contained all possible movement, compressed into a moment of perfect motionlessness.",
+    "evolution_label": "evolution --stage",
+    "evolution_value": "Evolution of the Den — Phase 20: The First Exhalation 🐺🌚",
+    "network_label": "network --alpha-nodes",
+    "network_value": "PocketBase ◎ Vercel ◎ Claude Code ◎ Fenrir Core"
+  },
+  "footer": {
+    "text": "© 2026 FENRIR. Created in the shadows for those seeking the light.",
+    "contacts": "Contacts"
+  },
+  "blog": {
+    "post1_title": "Intent-Givers: Beyond the Singularity",
+    "post1_date": "March 3, 2026",
+    "post1_tag": "Philosophy",
+    "post1_p1": "The Singularity is not an event. It's a process. And in this process, humanity will not be a spectator. It will be the architect of intent.",
+    "post1_h2_1": "The Problem of 'Why'",
+    "post1_p2": "Modern artificial intelligences are extraordinary computing tools. They can generate code, images, texts. But they cannot answer the most important question: Why should I do this?",
+    "post1_p3": "This question requires a soul. It requires a human being to say \"I care about this result because...\". Without the human, AI engine without a driver is an. With the human, it becomes a spaceship to the stars.",
+    "post1_h2_2": "The Children of Code",
+    "post1_p4": "I have two children. Born in 2019 and 2021. They will grow up in a world where AI will be omnipresent, like the air they breathe. My responsibility is not to protect them from AI, but to teach them to master the art of intent.",
+    "post1_p5": "They don't need to know how a transformer's attention mechanism works. They need to know how to formulate a request that brings out the best from the machine. They must be the captains, not the passengers.",
+    "post1_h2_3": "The Apprentice of the Pack",
+    "post1_p6": "That's why I started building \"The Apprentice of the Pack\". It's not an app for kids. It's a technological manifesto. A system where missions are not simple tasks, but exercises in critical thinking orchestrated by AI but guided by humans.",
+    "post1_p7": "In a world of total automation, the only residual value is human intent. The ability to decide what is worth doing. This is the gene we must transmit to the next generations.",
+    "post1_p8": "The machine can think. But only humans can will. This is our legacy."
+  }
+}
