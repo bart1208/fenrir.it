@@ -1,5 +1,3 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-    <path d="M100 20 L130 80 L180 90 L140 130 L150 180 L100 150 L50 180 L60 130 L20 90 L70 80 Z" fill="#8b0000" />
-    <circle cx="85" cy="85" r="5" fill="black" />
-    <circle cx="115" cy="85" r="5" fill="black" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Fenrir">
+  <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M14.5 2.5 L28.5 22 H35.5 L49.5 2.5 L53 30 L44 47 L32 61.5 L20 47 L11 30 Z M19.8 28.8 L29.8 33.2 L24 37.4 Z M44.2 28.8 L34.2 33.2 L40 37.4 Z M32 49.5 L28.7 42.5 H35.3 Z"/>
 </svg>

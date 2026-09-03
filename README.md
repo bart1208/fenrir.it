@@ -1,40 +1,37 @@
 # fenrir.it
 
-Personal site and manifesto, live at **[fenrir.it](https://fenrir.it)**.
+Personal site of **Bartolomeo Pasquale** — software engineer, Seville.
+Live at **<https://fenrir.it>**.
 
-Hand-written HTML, CSS and one file of vanilla JavaScript. No framework, no build step, no
-dependencies — the whole site is what you get when you clone it. Served from GitHub Pages on the
-apex domain; every `*.fenrir.it` subdomain is a different stack entirely, running on a self-hosted
-VPS.
+Hand-written static HTML and CSS. No framework, no build step, no package manager,
+no dependencies beyond Google Fonts. Served from GitHub Pages via `CNAME`.
 
-## Structure
-
-| Path | |
-|---|---|
-| `index.html` | the site |
-| `blog/` | long-form writing |
-| `locales/{en,es,it}` | translations, loaded client-side — the site is trilingual with no server involved |
-| `style.css`, `script.js` | all of the styling and behaviour |
-| `wolf.svg` | the mark |
-| `STRATEGY.md` | why the site exists, and what it is organised around |
-| `CNAME` | apex domain for GitHub Pages |
-
-## The three pillars
-
-`STRATEGY.md` calls the site a *Digital Declaration of Independence* and organises it around three:
-
-- **The Forge** — technical work. Things built rather than assembled.
-- **The Observatory** — essays on artificial intelligence, its trajectory, and what it asks of the
-  people building it.
-- **The Nomad** — geography as a coordinate, not an identity. Sevilla is where the workspace
-  happens to be.
-
-## Development
-
-```sh
-git clone https://github.com/bart1208/fenrir.it.git
-cd fenrir.it
-python3 -m http.server 8000   # or any static server
+```
+index.html                  home — work, writing, about, contact
+writing/intent-givers.html  essay
+blog/index.html             redirect, keeps the old post URL alive
+style.css                   the whole design system
+script.js                   footer year + reveal-on-scroll, and nothing else
+wolf.svg / favicon.svg      the mark
+og.png                      1200×630 social card
 ```
 
-Open `http://localhost:8000`. There is nothing to install and nothing to compile.
+## Working on it
+
+Open `index.html` in a browser. That is the whole toolchain.
+
+To regenerate the social card after changing the wording, author it as HTML and screenshot it
+with headless Chrome — there is no image editor on the server:
+
+```sh
+google-chrome --headless=new --disable-gpu --hide-scrollbars \
+  --force-device-scale-factor=1 --virtual-time-budget=9000 \
+  --window-size=1200,630 --screenshot=og.png "file://$PWD/card.html"
+```
+
+## Conventions
+
+- **English only.** It was trilingual (en/es/it) via i18next loaded from unpkg; that meant three
+  unpinned CDN scripts and every sentence written three times. Removed 2026-09-03.
+- **Every project link goes to something that actually responds.** No decorative project lists.
+- Prose is written, not generated. If a paragraph cannot say what it means, it is cut.
